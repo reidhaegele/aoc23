@@ -12,9 +12,7 @@ for l in f:
                 last = int(x)
     if last == -1:
         last = first
-    print(f"{first}{last}")
     sum += ((first * 10) + last)
-    print(f"Sum: {sum}")
     first = -1
     last = -1
         
